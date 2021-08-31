@@ -17,5 +17,10 @@ pipeline {
                 echo "Tested Successfully"
             }
         }
+        stage('Output'){
+            steps{
+                echo "Successfully"
+            }
+        }
     }
 }
