@@ -18,11 +18,3 @@ def equal(a,b):
 		return f'Multiplied list is : {s}'
 	else:
 		return f'Lists are not of equal length'
-
-def reverseofother(a,b):
-	si=[]
-        si=a[::-1]
-	if(b==si):
-		return f'Are they reverse of each other : YES'
-	else:
-		return f'Are they reverse of each other : NO'
