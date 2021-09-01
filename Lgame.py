@@ -1,12 +1,10 @@
 def common_member(a,b):
 	l1=set(a)
 	l2=set(b)
-	return f'List1 : {l1}'
-        return f'List2 : {l2}'
 	if(l1 & l2):
 		s=[]
 		s= l1 & l2
-		return f'Common element in lists  : {s}'
+		return f'-----------ELEMENTS OF LIST ARE AS FOLLOWS----------- List 1  : {l1} List 2  : {l2} Common element in lists  : {s}'
 	else:
 		return f'No common elements'
 
