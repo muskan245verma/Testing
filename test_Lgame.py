@@ -5,7 +5,7 @@ class Test_Listgame(unittest.TestCase):
     def test_commmon_member(self):
         l1=[1,2,3,4]
         l2=[4,3,2,1]
-        self.assertEqual(Lgame.common_member(l1,l2),'-----------ELEMENTS OF LIST ARE AS FOLLOWS----------- List 1  : {1,2,3,4} List 2  : {4,3,2,1} Common element in lists  : {1, 2, 3, 4}')
+        self.assertEqual(Lgame.common_member(l1,l2),'-----------ELEMENTS OF LIST ARE AS FOLLOWS----------- List 1  : {1, 2, 3, 4} List 2  : {4, 3, 2, 1} Common element in lists  : {1, 2, 3, 4}')
         l1=[1,2,3,4]
         l2=[5,6,7,8]
         self.assertEqual(Lgame.common_member(l1,l2),'No common elements')
